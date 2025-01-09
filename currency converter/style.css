@@ -1,0 +1,88 @@
+body{
+    
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    display:flex;
+    align-items:center;
+    justify-items: center
+
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+.content{
+   padding: 50px;
+    height: 50vh;
+    margin:50px;
+    width:90%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #332f2f;
+    height: 60vh;
+
+}
+.content .box{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #332f2f;
+    width:85%;
+
+}
+.box .left-box{
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    margin:10px;
+    padding:20px;
+}
+select{
+    display:flex;
+    justify-content:center;
+    margin:10px;
+    padding:10px;
+    background-color:antiquewhite;
+    box-shadow: 0 0 5px black;
+
+}
+.box .right{
+    display: flex;
+    flex-direction:column;
+    justify-content:right;
+    margin:10px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding:10px;
+    box-shadow: 0 0 5px white;
+    outline: none;
+    background-color: rgb(236, 169, 169);
+    font-size:1 rem;
+    border: none;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    margin:30px;
+    padding:30px;
+    border-radius: 10px;
+    height: 50px;
+    font-size:1.5em;
+    box-shadow: 0 0 5px grey;
+    background-color: bisque;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gray;
+    width: 80%;
+     border: none;
+}
